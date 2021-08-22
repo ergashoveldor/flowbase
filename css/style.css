@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish&display=swap');
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+#E7E7E7
+
+*/
+
+:root {
+    --dark: #19191B;
+    --orange: #FF7143;
+    --gray: #696871;
+    --blue: #5454D4;
+    --white: #fff;
+    --light-gray: #F8F8F8;
+    --dark-orange: #9F3919;
+    --background: #F2F2F2;
+}
+
+body {
+    background-color: var(--background);
+}
+.header {
+    max-width: 1070px;
+    padding-right: 186px;
+    padding-left: 184px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav-item {
+    margin-left: 49px;
+}
+.nav-item--btn {
+    margin-left: 159px;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--gray);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .2s ease color;
+}
+.nav-link:hover {
+    color: var(--dark);
+    border-bottom: 2px solid var(--blue);
+}
+.nav-link--btn {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--orange);
+    padding: 19px 59px;
+    border-radius: 10px;
+    transition: .2s ease background-color;
+}
+.nav-link--btn:hover {
+    background-color: var(--dark-orange);
+    border: none;
+    color: var(--white);
+}
+.wrapper {
+    max-width: 1070px;
+    padding-right: 186px;
+    padding-left: 184px;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-text {
+    flex: 0 0 459px;
+    margin-right: 77px;
+}
+.main-text--title {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1;
+    color: var(--dark);
+    margin: 0;
+    margin-bottom: 30px;
+}
+.main-text--description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    max-width: 459px;
+    margin-bottom: 50px;
+}
+.main-text--link {
+    background-color: var(--blue);
+    padding: 19px 59px;
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.main-btn {
+    display: flex;
+    align-items: center;
+}
+.main-btn--arrow {
+    padding: 18px 19px;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    margin-left: 59px;
+}
+.main-btn--arrow  img {
+     width: 22px;
+     height: 22px;
+}
+.main-img {
+    width: 610px;
+    height: 644px;
+}
+.logo-item-1 {
+    width: 118px;
+    height: 27px;
+}
+.logo-item-2 {
+    width: 123px;
+    height: 28px;
+}
+.logo-item-3 {
+    width: 100px;
+    height: 47px;
+}
+.logo-item-4 {
+    width: 117px;
+    height: 23px;
+}
+.logo-item-5 {
+    width: 126px;
+    height: 29px;
+}
+.logo-group  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.index {
+    display: flex;
+    align-items: center;
+    margin-top: 159px;
+}
+.index-img {
+    margin-right: 165px;
+}
+.index-text-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.index-text-description,
+.content-text-description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    max-width: 459px;
+    margin-bottom: 30px;
+}
+.index-text-link,
+.content-text-link {
+    color: var(--blue);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 83px;
+}
+.content-img {
+    margin-left: 158px;
+}
+.content-text-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.audit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.audit-card {
+    text-align: center;
+    margin-right: 74px;
+    
+}
+.audit-card img {
+    width: 118px;
+    height: 63px;
+}
+.audit-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.audit-description {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 307px;
+}
+.product {
+    display: flex;
+    align-items: center;
+}
+.product-text {
+    max-width: 555px;
+    font-family: 'DM Sans', sans-serif;
+}
+.product-text-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.product-btn {
+    margin-left: 242px;
+}
+.product-btn-sale {
+    background-color: #F7F7FB;
+    display: inline-block;
+    padding: 23px 30px 21px 4px;
+    border-radius: 10px;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.product-btn-sale span {
+    background-color: var(--blue);
+    color: #fff;
+    padding: 18px 25px 16px 25px;
+    border-radius: 10px 0 0 10px;
+    margin-right: 13px;
+    font-weight: 500;
+}
+.sale {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sale-card {
+    width: 330px;
+    height: 440px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+.sale-card-text-1 {
+    color: #696871;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 43px;
+}
+.pricing {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 700;
+}
+.sale-card-link {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 19px 42px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.sale-card:hover {
+    background-color: #FF7143;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.sale-card-link:hover {
+    background-color: #9F3919;
+    color: #fff;
+}
+
+ .sale-card:hover > .sale-card-text-1 {
+    color:#fff;
+}
+.pricing span {
+    font-size: 28px;
+}
