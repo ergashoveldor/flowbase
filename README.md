@@ -11,5 +11,4 @@ Maketni yuklab olish uchun: [Yuklash uchun ustiga bosing](https://www.figma.com/
 
 Videodarslik: [To'liq darslik](https://youtu.be/l4ht6bB1dRc?list=PLfMMHcmolIfBisGxVAyWoctGsf9LdE4K2)
 
-YouTube kanalimiz: [InformTech Uz](http://youtube.com/c/InformTech)
 
